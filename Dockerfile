@@ -29,4 +29,4 @@ RUN cd build &&\
     cmake .. &&\
     make
 
-CMD ["./main"]
+CMD ["sh", "-c", "cd build; ./Main"]
